@@ -1,1 +1,2 @@
 # Algoritma-Analizi
+Lab Uygulamaları
