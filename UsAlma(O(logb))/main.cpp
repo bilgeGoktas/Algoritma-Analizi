@@ -1,10 +1,11 @@
-/* Karmasklk O(logn) olan �s alma kodu*/
+/* Karmasklk O(logn) olan üs alma kodu*/
 #include <iostream>
 
 using namespace std;
-
+int step;
 int pow(int x, int n)
 {
+    step++;
     if(n==0)
         return 1;
     if(n==1)
@@ -17,7 +18,8 @@ int pow(int x, int n)
 
 int main()
 {
-    int sonuc = pow(3,40);
+    int sonuc = pow(3,10);
     cout << sonuc;
+    cout << "\nadım sayısı: " << step;
     return 0;
 }
